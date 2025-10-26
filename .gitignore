@@ -1,0 +1,79 @@
+# Environment files (contain sensitive data)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database backups
+backup_*.sql
+
+# Docker 
+docker-volumes/
+docker-compose.yml
+
+# SSL certificates (if any)
+ssl/
+*.pem
+*.key
+*.crt
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+
+# Node modules (should be in individual projects)
+node_modules/
+
+# Coverage reports
+coverage/
+
+# Build outputs
+dist/
+build/
+
+# Cache directories
+.cache/
+.npm/
+.yarn/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
